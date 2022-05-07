@@ -1,4 +1,4 @@
-package io.javabrains.ipldashboard.repository;
+package io.ipldashboard.repository;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 
-import io.javabrains.ipldashboard.model.Match;
+import io.ipldashboard.model.Match;
 
 public interface MatchRepository extends CrudRepository<Match, Long>  {
 

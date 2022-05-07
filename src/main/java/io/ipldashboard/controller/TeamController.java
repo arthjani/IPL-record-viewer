@@ -1,4 +1,4 @@
-package io.javabrains.ipldashboard.controller;
+package io.ipldashboard.controller;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import io.javabrains.ipldashboard.model.Match;
-import io.javabrains.ipldashboard.model.Team;
-import io.javabrains.ipldashboard.repository.MatchRepository;
-import io.javabrains.ipldashboard.repository.TeamRepository;
+import io.ipldashboard.model.Match;
+import io.ipldashboard.model.Team;
+import io.ipldashboard.repository.MatchRepository;
+import io.ipldashboard.repository.TeamRepository;
 
 @RestController
 @CrossOrigin
